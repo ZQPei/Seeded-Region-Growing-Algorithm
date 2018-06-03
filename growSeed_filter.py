@@ -98,10 +98,10 @@ class GrowSeedAlgo(object):
 
 
 def main():
-    ori_im = cv2.imread('img/test1.bmp')
+    ori_im = cv2.imread('img/test1.bmp'， flag=0)
     #cv2.imshow('ori_im',ori_im)
     #cv2.waitKey(0)
-    bin_im = ((ori_im>125)*255).astype(np.uint8)[:,:,0]
+    bin_im = ((ori_im>125)*255).astype(np.uint8)
     #cv2.imshow('bin_im',bin_im)
     #cv2.waitKey(0)
 
