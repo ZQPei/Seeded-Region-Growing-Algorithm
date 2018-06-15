@@ -90,7 +90,11 @@ class GrowSeedAlgo(object):
 
 
 def main():
+<<<<<<< HEAD
     ori_im = cv2.imread('img/rice.jpg',0)
+=======
+    ori_im = cv2.imread('img/test1.bmp'， flag=0)
+>>>>>>> ab20c84e6e259e3ac15ddd06471245e451442ffe
     #cv2.imshow('ori_im',ori_im)
     #cv2.waitKey(0)
     bin_im = ((ori_im>125)*255).astype(np.uint8)
