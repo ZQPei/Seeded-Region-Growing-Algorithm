@@ -24,22 +24,24 @@
 
 输入二值图像
 
-![输入二值图像](demo1.jpg)
+![输入二值图像](demo/demo1.jpg)
 
-![](demo2.jpg)
+![](demo/demo2.jpg)
 
 输出面积过滤后的图像
 
 
 
-![](demo3.jpg)
+![](demo/demo3.jpg)
 
-![](demo4.jpg)
+![](demo/demo4.jpg)
 
-<<<<<<< HEAD
+
+
+用于车牌检测
+
+![](demo/demo5.jpg)
+
 
 ### Enjoy Yourself!
 =======
-### Enjoy Yourself！
->>>>>>> ab20c84e6e259e3ac15ddd06471245e451442ffe
-
